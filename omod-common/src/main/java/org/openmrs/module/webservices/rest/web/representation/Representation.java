@@ -22,6 +22,8 @@ public interface Representation {
 	
 	Representation FULL = new FullRepresentation();
 	
+	Representation FORM = new FormRepresentation();
+	
 	/**
 	 * @return a unique string that distinguishes this representation from all others
 	 */

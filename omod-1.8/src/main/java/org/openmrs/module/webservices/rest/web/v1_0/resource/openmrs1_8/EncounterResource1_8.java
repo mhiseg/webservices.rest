@@ -79,7 +79,7 @@ public class EncounterResource1_8 extends DataDelegatingCrudResource<Encounter> 
 			description.addProperty("uuid");
 			description.addProperty("display");
 			description.addProperty("encounterDatetime");
-			description.addProperty("patient", Representation.REF);
+			description.addProperty("patient", Representation.FULL);
 			description.addProperty("location");
 			description.addProperty("form");
 			description.addProperty("encounterType");

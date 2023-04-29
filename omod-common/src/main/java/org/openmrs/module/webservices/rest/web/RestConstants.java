@@ -150,6 +150,9 @@ public class RestConstants {
 	public static String REPRESENTATION_FULL = "full";
 	
 	public static String REPRESENTATION_CUSTOM_PREFIX = "custom:";
+
+	public static String REPRESENTATION_FORM = "form";
+
 	
 	// The URI prefix through which clients consuming web services will connect
 	// to the web application
